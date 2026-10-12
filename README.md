@@ -21,7 +21,6 @@ Trong file `.github/workflows/ci.yml`, bổ sung tham số `cache: 'gradle'` và
 
 | Nội dung | Lần chạy thứ nhất | Lần chạy thứ hai |
 |---|---|---|
-| Thời gian toàn bộ Job | Chưa ghi nhận | Chưa ghi nhận |
-| Thời gian bước Setup Java | Chưa ghi nhận | Chưa ghi nhận |
-| Thời gian bước Run unit tests | Chưa ghi nhận | Chưa ghi nhận |
-| Trạng thái cache | Chưa ghi nhận | Chưa ghi nhận |
+| Thời gian toàn bộ Job | 1 phút 0 giây | 39 giây |
+| Thời gian bước Run unit tests (toàn bộ job hiển thị) | 56 giây | 35 giây |
+| Trạng thái workflow | Success | Success |
